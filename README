@@ -1,0 +1,4 @@
+1) git clone https://github.com/MeruemSolo/express-docker-app.git
+2) cd express-docker-app
+3) docker build -t express-docker-app .
+4) docker run -p 3001:3000 express-docker-app
